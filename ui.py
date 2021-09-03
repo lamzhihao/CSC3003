@@ -36,27 +36,6 @@ class tkinterApp(tk.Tk):
         frame = self.frames[cont]
         frame.tkraise()
 
-
-# first window frame startpage
-'''''
-def thread_function():
-    print("Hello")
-
-
-def thread_openpg(self, parent):
-    print("Count")
-    time.sleep(5)
-    frame = Countdown(parent, self, 1, 0, 1)
-    frame.grid(row=0, column=0, sticky="nsew")
-    frame.tkraise()
-
-def thread_wash(self, parent):
-    print("Wash")
-    frame = OpenWash(parent, self)
-    frame.grid(row=0, column=0, sticky="nsew")
-    frame.tkraise()
-'''
-
 class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
